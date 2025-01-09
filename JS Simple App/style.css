@@ -1,0 +1,111 @@
+/* Resetting default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Subtle background color for better aesthetics */
+    color: #333; /* Default text color */
+  }
+  
+  /* Unordered list styles */
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    padding: 5px;
+    background: #f4f4f4;
+    margin: 5px 0;
+    border-radius: 4px; /* Added subtle rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  /* Header styles */
+  header {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #ddd; /* Subtle border for separation */
+  }
+  
+  /* Container styles */
+  .container {
+    margin: auto;
+    max-width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    background: #fff; /* White background for focus */
+    border-radius: 8px; /* Smooth rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gentle shadow for elevation */
+  }
+  
+  /* Form styles */
+  #my-form {
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  #my-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* Larger font for readability */
+  }
+  
+  /* Button styles */
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-size: 16px; /* Larger font size for better UX */
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .btn:hover {
+    background: #444;
+  }
+  
+  /* Dark background utility class */
+  .bg-dark {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  /* Error message styles */
+  .error {
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
